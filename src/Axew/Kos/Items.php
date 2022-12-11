@@ -1,3 +1,5 @@
+<?php
+
 use customiesdevs\customies\item\ItemComponents;
 use customiesdevs\customies\item\ItemComponentsTrait;
 use pocketmine\item\Item;
