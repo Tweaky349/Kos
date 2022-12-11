@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener; 
 use pocketmine\command\Command;
 use pocketmine\command\commandsender;
-use libs\customiesdevs\customies\item\CustomiesItemFactory;
+use Axew\Kos\libs\customiesdevs\customies\item\CustomiesItemFactory;
 
 class Loader extends PluginBase implements Listener { 
 
