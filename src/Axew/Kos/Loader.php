@@ -6,7 +6,6 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener; 
 use pocketmine\command\Command;
 use pocketmine\command\commandsender;
-use pocketmine\utils\Text Format as TE; 
 
 class Loader extends PluginBase implements Listener { 
 
