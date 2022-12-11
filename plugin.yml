@@ -3,4 +3,4 @@ version: 0.0.1
 api: 4.0.0
 author: Axew
 main: Axew\Kos\Loader
-depends: customies
+depend: customies
