@@ -9,15 +9,15 @@ use pocketmine\command\commandsender;
 
 class Loader extends PluginBase implements Listener { 
 
-    public function onEnable() void{ 
+    public function onEnable() : void{ 
         $this->getLogger()->info("Kos esta habilitado"); 
     } 
 
-    public function onLoad() void{ 
+    public function onLoad() : void{ 
         $this->getLogger()->info("Kos esta cargando"); 
     } 
 
-    public function onDisable() void{ 
+    public function onDisable() : void{ 
         $this->getLogger()->info("Kos está deshabilitado"); 
     } 
 }
