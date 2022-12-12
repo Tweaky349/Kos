@@ -19,6 +19,8 @@ class Loader extends PluginBase implements Listener {
 
     public function onLoad() : void{ 
         $this->getLogger()->info("Kos esta cargando"); 
+        $item = new BasicItem(new ItemIdentifier(1000,0),"Ejemplo", "apple", /*max stack size*/16);
+        $item->addToServer();
     } 
 
     public function onDisable() : void{ 
