@@ -9,6 +9,7 @@ use pocketmine\command\commandsender;
 use pocketmine\item\ItemIdentifier;
 use refaltor\customitemapi\CustomItemAPI;
 use refaltor\customitemapi\items\BaseItem;
+use Refaltor\CustomItemAPI\Items\BasicItem
 
 class Loader extends PluginBase implements Listener { 
 
