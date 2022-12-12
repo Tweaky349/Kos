@@ -6,13 +6,11 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener; 
 use pocketmine\command\Command;
 use pocketmine\command\commandsender;
-use customiesdev\customies\item\CustomiesItemFactory;
 
 class Loader extends PluginBase implements Listener { 
 
     public function onEnable() : void{ 
-        $this->getLogger()->info("Kos esta habilitado"); 
-        CustomiesItemFactory::getInstance()->registerItem(Item::class, "customies:Pico-Hacha_de_los_enanos", "Pico-Hacha de los enanos");
+        $this->getLogger()->info("Kos esta habilitado");
     } 
 
     public function onLoad() : void{ 
